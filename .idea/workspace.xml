@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e2af75d0-7364-495b-9dbb-8156718d1dc9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="1aZFqd1hnUkG4VeKhfYqIwck6vI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/helpers" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2af75d0-7364-495b-9dbb-8156718d1dc9" name="Default Changelist" comment="" />
+      <created>1586935400958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586935400958</updated>
+      <workItem from="1586935402397" duration="644000" />
+      <workItem from="1588278013128" duration="491000" />
+      <workItem from="1589179868625" duration="244000" />
+      <workItem from="1589873812112" duration="319000" />
+      <workItem from="1589958316636" duration="1067000" />
+      <workItem from="1590120616128" duration="7325000" />
+      <workItem from="1590403058738" duration="7079000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/test/test.js.map" />
+        <option value="$PROJECT_DIR$/test/test.js" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="507" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590122687169">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="507" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1590122687169" />
+    <state width="1751" height="267" key="GridCell.Tab.0.bottom" timestamp="1586935432713">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1751" height="267" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1586935432713" />
+    <state width="1751" height="267" key="GridCell.Tab.0.center" timestamp="1586935432698">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1751" height="267" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1586935432698" />
+    <state width="1751" height="267" key="GridCell.Tab.0.left" timestamp="1586935432697">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1751" height="267" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1586935432697" />
+    <state width="1751" height="267" key="GridCell.Tab.0.right" timestamp="1586935432702">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1751" height="267" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1586935432702" />
+    <state width="1200" height="848" key="javadoc.popup" timestamp="1590409941076">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1200" height="848" key="javadoc.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1590409941076" />
+  </component>
+</project>

@@ -1,0 +1,43 @@
+rules_version = '2';
+service cloud.firestore {
+	match /databases/{database}/documents {
+    function signedIn() {
+        return request.auth.uid != null;
+    }
+    
+    function isAdmin() {
+    		return get(/databases/$(database)/documents/roles/$(request.auth.uid)).data.name == "admin";
+    }
+    
+    function isSuperAdmin() {
+    		return get(/databases/$(database)/documents/roles/$(request.auth.uid)).data.name == "super-admin";
+    }
+    
+    match /orders/{orderId} {
+      allow read, write: if request.time < timestamp.date(2021, 3, 14);
+    }
+    match /stocks/{stockId} {
+      allow read, write: if request.time < timestamp.date(2021, 3, 14);
+    }
+    match /top-products/{productId} {
+      allow read, write: if request.time < timestamp.date(2021, 3, 14);
+    }
+    match /roles/{roleId} {
+      allow read: if roleId == request.auth.uid;
+      allow write: if isSuperAdmin();
+    }
+    match /products/{productId} {
+    	allow read: if request.time < timestamp.date(2021, 3, 14);
+      allow create, update: if 
+                    signedIn() 
+      							&& isAdmin()
+      							&& request.resource.data.name != null
+                    && request.resource.data.name.size() > 3
+                    && request.resource.data.url != null
+                    && request.resource.data.url.size() > 12
+                    && request.resource.data.price != null
+                    && request.resource.data.price > 0;
+      allow delete: if request.auth.uid != null;
+    }
+  }
+}

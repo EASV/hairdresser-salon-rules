@@ -1,0 +1,945 @@
+[debug] [2020-05-25T12:20:31.310Z] ----------------------------------------------------------------------
+[debug] [2020-05-25T12:20:31.312Z] Command:       /usr/local/bin/node /usr/local/bin/firebase emulators:exec --only firestore npm run execute-tests:rules
+[debug] [2020-05-25T12:20:31.312Z] CLI Version:   8.0.2
+[debug] [2020-05-25T12:20:31.312Z] Platform:      darwin
+[debug] [2020-05-25T12:20:31.312Z] Node Version:  v12.12.0
+[debug] [2020-05-25T12:20:31.313Z] Time:          Mon May 25 2020 14:20:31 GMT+0200 (Central European Summer Time)
+[debug] [2020-05-25T12:20:31.313Z] ----------------------------------------------------------------------
+[debug] [2020-05-25T12:20:31.313Z] 
+[debug] [2020-05-25T12:20:31.318Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-25T12:20:31.318Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: firestore
+[debug] [2020-05-25T12:20:31.327Z] Ignoring unsupported arg: projectId
+[debug] [2020-05-25T12:20:31.327Z] Ignoring unsupported arg: auto_download
+[debug] [2020-05-25T12:20:31.327Z] Starting firestore emulator with command {"binary":"java","args":["-Duser.language=en","-jar","/Users/lbilde/.cache/firebase/emulators/cloud-firestore-emulator-v1.11.2.jar","--host","localhost","--port",8080,"--rules","/Users/lbilde/Documents/work/angular-fire/hairdresser-rules/firestore.rules"],"optionalArgs":["port","webchannel_port","host","rules","functions_emulator","seed_from_export"],"joinArgs":false}
+[info] i  firestore: firestore emulator logging to firestore-debug.log
+[debug] [2020-05-25T12:20:32.253Z] API endpoint: http://
+[debug] [2020-05-25T12:20:32.253Z] localhost:8080
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=localhost:8080
+
+Dev App Server is now running.
+
+
+[info] ✔  firestore: firestore emulator started at http://localhost:8080
+[info] i  firestore: For testing set FIRESTORE_EMULATOR_HOST=localhost:8080
+[info] i  Running script: npm run execute-tests:rules
+[debug] [2020-05-25T12:20:32.358Z] Running npm run execute-tests:rules with environment {"npm_config_save_dev":"","npm_config_legacy_bundling":"","npm_config_dry_run":"","npm_config_viewer":"man","npm_config_only":"","npm_config_commit_hooks":"true","npm_config_browser":"","npm_config_also":"","npm_package_scripts_test_rules":"firebase emulators:exec --only firestore 'npm run execute-tests:rules'","npm_config_sign_git_commit":"","npm_config_rollback":"true","NODE":"/usr/local/bin/node","npm_config_usage":"","npm_config_audit":"true","npm_package_scripts_validate_rules":"tsc  --noEmit","INIT_CWD":"/Users/lbilde/Documents/work/angular-fire/hairdresser-rules","ANDROID_HOME":"/Users/lbilde/Library/Android/sdk","npm_config_globalignorefile":"/usr/local/etc/npmignore","SHELL":"/bin/bash","TERM":"xterm-256color","npm_config_shell":"/bin/bash","npm_config_maxsockets":"50","npm_config_init_author_url":"","npm_config_shrinkwrap":"true","npm_config_parseable":"","npm_config_metrics_registry":"https://registry.npmjs.org/","TMPDIR":"/var/folders/yc/dkh53q4560j_ylkkrcgq4vg40000gn/T/","npm_config_timing":"","npm_config_init_license":"ISC","npm_package_dependencies_ts_node":"7.0.1","npm_package_scripts_lint":"npm run lint:rules","GRADLE_HOME":"/Users/lbilde/opt/gradle/gradle-4.10.2","CONDA_SHLVL":"1","npm_config_if_present":"","CONDA_PROMPT_MODIFIER":"(base) ","npm_config_sign_git_tag":"","npm_config_init_author_email":"","npm_config_cache_max":"Infinity","npm_package_dependencies_uuid":"^8.1.0","npm_package_scripts_validate":"npm run validate:rules","npm_config_preid":"","npm_config_long":"","npm_config_local_address":"","npm_config_git_tag_version":"true","npm_config_cert":"","npm_config_registry":"https://registry.npmjs.org/","npm_config_noproxy":"","npm_config_fetch_retries":"2","npm_config_versions":"","npm_config_message":"%s","npm_config_key":"","npm_package_readmeFilename":"README.md","npm_package_scripts_lint_rules":"tslint","npm_package_description":"Cloud Firestore emulator testing, with TypeScript","USER":"lbilde","NVM_DIR":"/Users/lbilde/.nvm","npm_package_dependencies__firebase_testing":"^0.19.5","npm_config_globalconfig":"/usr/local/etc/npmrc","CONDA_EXE":"/Users/lbilde/anaconda3/bin/conda","npm_config_prefer_online":"","npm_config_logs_max":"10","npm_config_always_auth":"","npm_package_dependencies_tslint":"^5.12.1","SSH_AUTH_SOCK":"/private/tmp/com.apple.launchd.9IkawA6SUB/Listeners","npm_package_scripts_deploy_rules":"firebase deploy --only firestore","__CF_USER_TEXT_ENCODING":"0x1F5:0x0:0x0","npm_execpath":"/usr/local/lib/node_modules/npm/bin/npm-cli.js","npm_config_global_style":"","npm_config_cache_lock_retries":"10","npm_package_dependencies_prettier":"1.19.1","npm_config_update_notifier":"true","npm_config_cafile":"","npm_package_scripts_execute_tests_rules":"jest './tests' --coverage --watchAll","npm_package_dependencies_ts_lint":"^4.5.1","npm_config_heading":"npm","npm_config_audit_level":"low","_CE_CONDA":"","npm_config_searchlimit":"20","npm_config_read_only":"","npm_config_offline":"","npm_config_fetch_retry_mintimeout":"10000","npm_config_json":"","npm_config_access":"","npm_config_argv":"{\"remain\":[],\"cooked\":[\"run\",\"test:rules\"],\"original\":[\"run\",\"test:rules\"]}","PATH":"/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/lbilde/Documents/work/angular-fire/hairdresser-rules/node_modules/.bin:/Users/lbilde/anaconda3/bin:/Users/lbilde/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/lib/dnx/runtimes/dnx-coreclr-darwin-x64.1.0.0-rc1-update1/bin:/Users/lbilde/.dnx/bin:/Users/lbilde/Documents/MongoDB/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/gradle/gradle-4.10.2/bin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/lbilde/Documents/work/angular-fire/hairdresser-rules/node_modules/.bin:/usr/local/mongodb/bin:/Users/lbilde/Library/Android/sdk/platform-tools::","npm_config_allow_same_version":"","TERMINAL_EMULATOR":"JetBrains-JediTerm","npm_config_https_proxy":"","npm_config_engine_strict":"","npm_config_description":"true","_":"/usr/local/bin/firebase","npm_config_userconfig":"/Users/lbilde/.npmrc","npm_config_init_module":"/Users/lbilde/.npm-init.js","npm_package_dependencies_typescript":"^3.9.3","NVM_NODEJS_ORG_MIRROR":"http://nodejs.org/dist","CONDA_PREFIX":"/Users/lbilde/anaconda3","npm_config_cidr":"","PWD":"/Users/lbilde/Documents/work/angular-fire/hairdresser-rules","npm_config_user":"","npm_config_node_version":"12.12.0","npm_lifecycle_event":"test:rules","npm_package_dependencies_jest":"^25.0.1","npm_config_save":"true","npm_config_ignore_prepublish":"","npm_config_editor":"vi","npm_config_auth_type":"legacy","npm_package_name":"cloud-firestore-emulator-typescript-quickstart","npm_config_tag":"latest","npm_config_script_shell":"","npm_config_progress":"true","npm_config_global":"","npm_config_before":"","npm_config_searchstaleness":"900","npm_config_optional":"true","npm_config_ham_it_up":"","npm_package_dependencies_ts_jest":"^26.0.0","XPC_FLAGS":"0x0","npm_config_save_prod":"","npm_config_force":"","npm_config_bin_links":"true","npm_config_searchopts":"","npm_config_node_gyp":"/usr/local/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js","npm_config_depth":"Infinity","npm_config_sso_poll_frequency":"500","npm_config_rebuild_bundle":"true","npm_package_version":"1.0.2","XPC_SERVICE_NAME":"0","_CE_M":"","npm_config_unicode":"true","HOME":"/Users/lbilde","SHLVL":"2","npm_config_fetch_retry_maxtimeout":"60000","npm_config_tag_version_prefix":"v","npm_config_strict_ssl":"true","npm_config_sso_type":"oauth","npm_config_scripts_prepend_node_path":"warn-only","npm_config_save_prefix":"^","npm_config_loglevel":"notice","npm_config_ca":"","npm_config_save_exact":"","npm_config_group":"20","npm_config_fetch_retry_factor":"10","npm_config_dev":"","npm_config_version":"","npm_config_prefer_offline":"","npm_config_cache_lock_stale":"60000","npm_config_otp":"","npm_config_cache_min":"10","npm_config_searchexclude":"","npm_config_cache":"/Users/lbilde/.npm","LOGNAME":"lbilde","CONDA_PYTHON_EXE":"/Users/lbilde/anaconda3/bin/python","npm_lifecycle_script":"firebase emulators:exec --only firestore 'npm run execute-tests:rules'","npm_config_color":"true","npm_config_proxy":"","npm_config_package_lock":"true","LC_CTYPE":"en_DK.UTF-8","npm_config_package_lock_only":"","npm_config_fund":"true","npm_config_save_optional":"","npm_package_dependencies_jest_environment_uint8array":"^1.0.0","CONDA_DEFAULT_ENV":"base","npm_config_ignore_scripts":"","npm_config_user_agent":"npm/6.14.4 node/v12.12.0 darwin x64","npm_config_cache_lock_wait":"10000","npm_config_production":"","DISPLAY":"/private/tmp/com.apple.launchd.7BNYcCxQbB/org.macosforge.xquartz:0","MONGO_PATH":"/usr/local/mongodb","npm_config_send_metrics":"","npm_config_save_bundle":"","npm_config_umask":"0022","npm_config_node_options":"","npm_config_init_version":"1.0.0","npm_config_init_author_name":"","npm_config_git":"git","npm_config_scope":"","npm_package_dependencies_source_map_support":"0.5.16","npm_config_unsafe_perm":"true","npm_config_tmp":"/var/folders/yc/dkh53q4560j_ylkkrcgq4vg40000gn/T","npm_config_onload_script":"","npm_package_dependencies_firebase_admin":"^8.5.0","npm_node_execpath":"/usr/local/bin/node","npm_config_prefix":"/usr/local","npm_config_link":"","npm_config_format_package_lock":"true","IS_FIREBASE_CLI":"true","FIRESTORE_EMULATOR_HOST":"localhost:8080","FIREBASE_FIRESTORE_EMULATOR_ADDRESS":"localhost:8080"}
+[debug] [2020-05-25T12:21:08.876Z] May 25, 2020 2:21:08 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-25T12:21:09.662Z] May 25, 2020 2:21:09 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-25T12:21:09.734Z] May 25, 2020 2:21:09 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Service call error. Function: [get], Argument: [path_value {
+  segments {
+    simple: "databases"
+  }
+  segments {
+    simple: "(default)"
+  }
+  segments {
+    simple: "documents"
+  }
+  segments {
+    simple: "roles"
+  }
+  segments {
+    simple: "USER-33f56f0f-9802-44ef-befb-aa1b7414ff91"
+  }
+}
+]. for 'create' @ L32
+
+[debug] [2020-05-25T12:21:09.828Z] May 25, 2020 2:21:09 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-25T12:22:02.319Z] May 25, 2020 2:22:02 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-25T12:22:02.429Z] May 25, 2020 2:22:02 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-25T12:22:02.469Z] May 25, 2020 2:22:02 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Service call error. Function: [get], Argument: [path_value {
+  segments {
+    simple: "databases"
+  }
+  segments {
+    simple: "(default)"
+  }
+  segments {
+    simple: "documents"
+  }
+  segments {
+    simple: "roles"
+  }
+  segments {
+    simple: "USER-7670c213-40e8-4a3f-97e4-b28c153f80b8"
+  }
+}
+]. for 'create' @ L32
+
+[debug] [2020-05-25T12:22:02.555Z] May 25, 2020 2:22:02 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-25T12:22:02.595Z] May 25, 2020 2:22:02 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:22:02.603Z] May 25, 2020 2:22:02 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:22:20.296Z] May 25, 2020 2:22:20 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-25T12:22:20.396Z] May 25, 2020 2:22:20 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-25T12:22:20.437Z] May 25, 2020 2:22:20 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Service call error. Function: [get], Argument: [path_value {
+  segments {
+    simple: "databases"
+  }
+  segments {
+    simple: "(default)"
+  }
+  segments {
+    simple: "documents"
+  }
+  segments {
+    simple: "roles"
+  }
+  segments {
+    simple: "USER-0d1eee04-3f59-4044-9bd9-f53e5b811041"
+  }
+}
+]. for 'create' @ L32
+
+[debug] [2020-05-25T12:22:20.528Z] May 25, 2020 2:22:20 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-25T12:22:20.564Z] May 25, 2020 2:22:20 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:22:20.571Z] May 25, 2020 2:22:20 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:22:28.924Z] May 25, 2020 2:22:28 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-25T12:22:29.017Z] May 25, 2020 2:22:29 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-25T12:22:29.053Z] May 25, 2020 2:22:29 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Service call error. Function: [get], Argument: [path_value {
+  segments {
+    simple: "databases"
+  }
+  segments {
+    simple: "(default)"
+  }
+  segments {
+    simple: "documents"
+  }
+  segments {
+    simple: "roles"
+  }
+  segments {
+    simple: "USER-b554f701-94f4-4a9b-baa3-9136d0bdebe0"
+  }
+}
+]. for 'create' @ L32
+
+[debug] [2020-05-25T12:22:29.140Z] May 25, 2020 2:22:29 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-25T12:22:29.179Z] May 25, 2020 2:22:29 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:22:59.096Z] May 25, 2020 2:22:59 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-25T12:22:59.170Z] May 25, 2020 2:22:59 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-25T12:22:59.206Z] May 25, 2020 2:22:59 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Service call error. Function: [get], Argument: [path_value {
+  segments {
+    simple: "databases"
+  }
+  segments {
+    simple: "(default)"
+  }
+  segments {
+    simple: "documents"
+  }
+  segments {
+    simple: "roles"
+  }
+  segments {
+    simple: "USER-a16e788c-5ae1-4eb2-81e5-079d3a9dd993"
+  }
+}
+]. for 'create' @ L32
+
+[debug] [2020-05-25T12:22:59.298Z] May 25, 2020 2:22:59 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-25T12:22:59.334Z] May 25, 2020 2:22:59 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:26:19.765Z] May 25, 2020 2:26:19 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-25T12:26:19.845Z] May 25, 2020 2:26:19 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-25T12:26:19.879Z] May 25, 2020 2:26:19 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Service call error. Function: [get], Argument: [path_value {
+  segments {
+    simple: "databases"
+  }
+  segments {
+    simple: "(default)"
+  }
+  segments {
+    simple: "documents"
+  }
+  segments {
+    simple: "roles"
+  }
+  segments {
+    simple: "USER-61a7007f-c828-467c-a575-8ccf9517505a"
+  }
+}
+]. for 'create' @ L32
+
+[debug] [2020-05-25T12:26:19.957Z] May 25, 2020 2:26:19 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-25T12:26:19.990Z] May 25, 2020 2:26:19 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:26:20.029Z] May 25, 2020 2:26:20 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:26:20.036Z] May 25, 2020 2:26:20 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:27:00.183Z] May 25, 2020 2:27:00 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-25T12:27:00.267Z] May 25, 2020 2:27:00 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-25T12:27:00.301Z] May 25, 2020 2:27:00 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Service call error. Function: [get], Argument: [path_value {
+  segments {
+    simple: "databases"
+  }
+  segments {
+    simple: "(default)"
+  }
+  segments {
+    simple: "documents"
+  }
+  segments {
+    simple: "roles"
+  }
+  segments {
+    simple: "USER-2b7727ef-ae9c-45ae-a10a-e79b502db31e"
+  }
+}
+]. for 'create' @ L32
+
+[debug] [2020-05-25T12:27:00.386Z] May 25, 2020 2:27:00 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-25T12:27:00.422Z] May 25, 2020 2:27:00 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-25T12:27:00.431Z] May 25, 2020 2:27:00 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:27:00.468Z] May 25, 2020 2:27:00 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:27:00.474Z] May 25, 2020 2:27:00 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:27:19.091Z] May 25, 2020 2:27:19 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-25T12:27:19.171Z] May 25, 2020 2:27:19 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-25T12:27:19.206Z] May 25, 2020 2:27:19 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Service call error. Function: [get], Argument: [path_value {
+  segments {
+    simple: "databases"
+  }
+  segments {
+    simple: "(default)"
+  }
+  segments {
+    simple: "documents"
+  }
+  segments {
+    simple: "roles"
+  }
+  segments {
+    simple: "USER-806bac0e-ad55-431f-80a6-9c61247bb5b5"
+  }
+}
+]. for 'create' @ L32
+
+[debug] [2020-05-25T12:27:19.289Z] May 25, 2020 2:27:19 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-25T12:27:19.295Z] May 25, 2020 2:27:19 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:27:19.334Z] May 25, 2020 2:27:19 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:27:19.343Z] May 25, 2020 2:27:19 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:29:30.376Z] May 25, 2020 2:29:30 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-25T12:29:30.475Z] May 25, 2020 2:29:30 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-25T12:29:30.521Z] May 25, 2020 2:29:30 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-25T12:29:30.525Z] May 25, 2020 2:29:30 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:29:30.534Z] May 25, 2020 2:29:30 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:29:30.541Z] May 25, 2020 2:29:30 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:29:30.549Z] May 25, 2020 2:29:30 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:29:30.554Z] May 25, 2020 2:29:30 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:30:35.734Z] May 25, 2020 2:30:35 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-25T12:30:35.838Z] May 25, 2020 2:30:35 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-25T12:30:35.887Z] May 25, 2020 2:30:35 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-25T12:30:35.894Z] May 25, 2020 2:30:35 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:30:35.904Z] May 25, 2020 2:30:35 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:30:35.910Z] May 25, 2020 2:30:35 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:30:35.918Z] May 25, 2020 2:30:35 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:30:35.924Z] May 25, 2020 2:30:35 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:31:14.690Z] May 25, 2020 2:31:14 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-25T12:31:14.796Z] May 25, 2020 2:31:14 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-25T12:31:14.863Z] May 25, 2020 2:31:14 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:31:14.869Z] May 25, 2020 2:31:14 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:31:15.049Z] May 25, 2020 2:31:15 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:31:15.055Z] May 25, 2020 2:31:15 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:31:15.059Z] May 25, 2020 2:31:15 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:31:15.065Z] May 25, 2020 2:31:15 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:31:15.071Z] May 25, 2020 2:31:15 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:31:15.075Z] May 25, 2020 2:31:15 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:31:15.080Z] May 25, 2020 2:31:15 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:31:15.084Z] May 25, 2020 2:31:15 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:31:15.089Z] May 25, 2020 2:31:15 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:32:14.209Z] May 25, 2020 2:32:14 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-25T12:32:14.312Z] May 25, 2020 2:32:14 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-25T12:32:14.378Z] May 25, 2020 2:32:14 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:32:14.396Z] May 25, 2020 2:32:14 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-25T12:32:14.404Z] May 25, 2020 2:32:14 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:32:14.412Z] May 25, 2020 2:32:14 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:32:14.418Z] May 25, 2020 2:32:14 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:32:14.425Z] May 25, 2020 2:32:14 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:32:14.430Z] May 25, 2020 2:32:14 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:32:47.533Z] May 25, 2020 2:32:47 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-25T12:32:47.637Z] May 25, 2020 2:32:47 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-25T12:32:47.811Z] May 25, 2020 2:32:47 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:32:48.016Z] May 25, 2020 2:32:48 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'create' @ L32
+
+[debug] [2020-05-25T12:32:48.022Z] May 25, 2020 2:32:48 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:32:48.128Z] May 25, 2020 2:32:48 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:32:48.134Z] May 25, 2020 2:32:48 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:32:48.240Z] May 25, 2020 2:32:48 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:32:48.246Z] May 25, 2020 2:32:48 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:33:03.593Z] May 25, 2020 2:33:03 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-25T12:33:03.696Z] May 25, 2020 2:33:03 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-25T12:33:03.848Z] May 25, 2020 2:33:03 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:33:04.025Z] May 25, 2020 2:33:04 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'create' @ L32
+
+[debug] [2020-05-25T12:33:04.029Z] May 25, 2020 2:33:04 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:33:04.126Z] May 25, 2020 2:33:04 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:33:04.132Z] May 25, 2020 2:33:04 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:33:04.223Z] May 25, 2020 2:33:04 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:33:04.231Z] May 25, 2020 2:33:04 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:33:10.882Z] May 25, 2020 2:33:10 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-25T12:33:10.976Z] May 25, 2020 2:33:10 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-25T12:33:11.133Z] May 25, 2020 2:33:11 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:33:11.312Z] May 25, 2020 2:33:11 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'create' @ L32
+
+[debug] [2020-05-25T12:33:11.317Z] May 25, 2020 2:33:11 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:33:11.417Z] May 25, 2020 2:33:11 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:33:11.422Z] May 25, 2020 2:33:11 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:33:11.511Z] May 25, 2020 2:33:11 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:33:11.516Z] May 25, 2020 2:33:11 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:33:57.820Z] May 25, 2020 2:33:57 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-25T12:33:57.910Z] May 25, 2020 2:33:57 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-25T12:33:58.052Z] May 25, 2020 2:33:58 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:33:58.201Z] May 25, 2020 2:33:58 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-25T12:33:58.205Z] May 25, 2020 2:33:58 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:33:58.284Z] May 25, 2020 2:33:58 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:33:58.290Z] May 25, 2020 2:33:58 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:33:58.367Z] May 25, 2020 2:33:58 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:33:58.372Z] May 25, 2020 2:33:58 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:34:45.052Z] May 25, 2020 2:34:45 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-25T12:34:45.140Z] May 25, 2020 2:34:45 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-25T12:34:45.276Z] May 25, 2020 2:34:45 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:34:45.442Z] May 25, 2020 2:34:45 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-25T12:34:45.447Z] May 25, 2020 2:34:45 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:34:45.533Z] May 25, 2020 2:34:45 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:34:45.538Z] May 25, 2020 2:34:45 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:34:45.621Z] May 25, 2020 2:34:45 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:34:45.627Z] May 25, 2020 2:34:45 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:35:15.685Z] May 25, 2020 2:35:15 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-25T12:35:15.778Z] May 25, 2020 2:35:15 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-25T12:35:15.938Z] May 25, 2020 2:35:15 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:35:16.099Z] May 25, 2020 2:35:16 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-25T12:35:16.103Z] May 25, 2020 2:35:16 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:35:16.187Z] May 25, 2020 2:35:16 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:35:16.193Z] May 25, 2020 2:35:16 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:35:16.276Z] May 25, 2020 2:35:16 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:35:16.280Z] May 25, 2020 2:35:16 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:35:39.930Z] May 25, 2020 2:35:39 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-25T12:35:40.022Z] May 25, 2020 2:35:40 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-25T12:35:40.168Z] May 25, 2020 2:35:40 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:35:40.327Z] May 25, 2020 2:35:40 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-25T12:35:40.332Z] May 25, 2020 2:35:40 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:35:40.414Z] May 25, 2020 2:35:40 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:35:40.418Z] May 25, 2020 2:35:40 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:35:40.493Z] May 25, 2020 2:35:40 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:35:40.497Z] May 25, 2020 2:35:40 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:37:08.955Z] May 25, 2020 2:37:08 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-25T12:37:09.063Z] May 25, 2020 2:37:09 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-25T12:37:09.219Z] May 25, 2020 2:37:09 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:37:09.401Z] May 25, 2020 2:37:09 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-25T12:37:09.404Z] May 25, 2020 2:37:09 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:37:09.490Z] May 25, 2020 2:37:09 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:37:09.495Z] May 25, 2020 2:37:09 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:37:09.577Z] May 25, 2020 2:37:09 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:37:09.581Z] May 25, 2020 2:37:09 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:37:23.770Z] May 25, 2020 2:37:23 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-25T12:37:23.858Z] May 25, 2020 2:37:23 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-25T12:37:23.996Z] May 25, 2020 2:37:23 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-25T12:37:24.160Z] May 25, 2020 2:37:24 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-25T12:37:24.165Z] May 25, 2020 2:37:24 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:37:24.251Z] May 25, 2020 2:37:24 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:37:24.254Z] May 25, 2020 2:37:24 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:37:24.333Z] May 25, 2020 2:37:24 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-25T12:37:24.337Z] May 25, 2020 2:37:24 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[info] ✔  Script exited successfully (code 0)
+[debug] [2020-05-26T07:36:47.342Z] ----------------------------------------------------------------------
+[debug] [2020-05-26T07:36:47.343Z] Command:       /usr/local/bin/node /usr/local/bin/firebase emulators:exec --only firestore npm run execute-tests:rules
+[debug] [2020-05-26T07:36:47.343Z] CLI Version:   8.0.2
+[debug] [2020-05-26T07:36:47.344Z] Platform:      darwin
+[debug] [2020-05-26T07:36:47.344Z] Node Version:  v12.12.0
+[debug] [2020-05-26T07:36:47.344Z] Time:          Tue May 26 2020 09:36:47 GMT+0200 (Central European Summer Time)
+[debug] [2020-05-26T07:36:47.345Z] ----------------------------------------------------------------------
+[debug] [2020-05-26T07:36:47.345Z] 
+[debug] [2020-05-26T07:36:47.352Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-26T07:36:47.353Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: firestore
+[debug] [2020-05-26T07:36:47.362Z] Ignoring unsupported arg: projectId
+[debug] [2020-05-26T07:36:47.362Z] Ignoring unsupported arg: auto_download
+[debug] [2020-05-26T07:36:47.362Z] Starting firestore emulator with command {"binary":"java","args":["-Duser.language=en","-jar","/Users/lbilde/.cache/firebase/emulators/cloud-firestore-emulator-v1.11.2.jar","--host","localhost","--port",8080,"--rules","/Users/lbilde/Documents/work/angular-fire/hairdresser-rules/firestore.rules"],"optionalArgs":["port","webchannel_port","host","rules","functions_emulator","seed_from_export"],"joinArgs":false}
+[info] i  firestore: firestore emulator logging to firestore-debug.log
+[debug] [2020-05-26T07:36:48.374Z] API endpoint: http://
+[debug] [2020-05-26T07:36:48.375Z] localhost:8080
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=localhost:8080
+
+Dev App Server is now running.
+
+
+[info] ✔  firestore: firestore emulator started at http://localhost:8080
+[info] i  firestore: For testing set FIRESTORE_EMULATOR_HOST=localhost:8080
+[info] i  Running script: npm run execute-tests:rules
+[debug] [2020-05-26T07:36:48.397Z] Running npm run execute-tests:rules with environment {"npm_config_save_dev":"","npm_config_legacy_bundling":"","npm_config_dry_run":"","npm_config_viewer":"man","npm_config_only":"","npm_config_commit_hooks":"true","npm_config_browser":"","npm_config_also":"","npm_package_scripts_test_rules":"firebase emulators:exec --only firestore 'npm run execute-tests:rules'","npm_config_sign_git_commit":"","npm_config_rollback":"true","NODE":"/usr/local/bin/node","npm_config_usage":"","npm_config_audit":"true","npm_package_scripts_validate_rules":"tsc  --noEmit","INIT_CWD":"/Users/lbilde/Documents/work/angular-fire/hairdresser-rules","ANDROID_HOME":"/Users/lbilde/Library/Android/sdk","npm_config_globalignorefile":"/usr/local/etc/npmignore","SHELL":"/bin/bash","TERM":"xterm-256color","npm_config_shell":"/bin/bash","npm_config_maxsockets":"50","npm_config_init_author_url":"","npm_config_shrinkwrap":"true","npm_config_parseable":"","npm_config_metrics_registry":"https://registry.npmjs.org/","TMPDIR":"/var/folders/yc/dkh53q4560j_ylkkrcgq4vg40000gn/T/","npm_config_timing":"","npm_config_init_license":"ISC","npm_package_dependencies_ts_node":"7.0.1","npm_package_scripts_lint":"npm run lint:rules","GRADLE_HOME":"/Users/lbilde/opt/gradle/gradle-4.10.2","CONDA_SHLVL":"1","npm_config_if_present":"","CONDA_PROMPT_MODIFIER":"(base) ","npm_config_sign_git_tag":"","npm_config_init_author_email":"","npm_config_cache_max":"Infinity","npm_package_dependencies_uuid":"^8.1.0","npm_package_scripts_validate":"npm run validate:rules","npm_config_preid":"","npm_config_long":"","npm_config_local_address":"","npm_config_git_tag_version":"true","npm_config_cert":"","npm_config_registry":"https://registry.npmjs.org/","npm_config_noproxy":"","npm_config_fetch_retries":"2","npm_config_versions":"","npm_config_message":"%s","npm_config_key":"","npm_package_readmeFilename":"README.md","npm_package_scripts_lint_rules":"tslint","npm_package_description":"Cloud Firestore emulator testing, with TypeScript","USER":"lbilde","NVM_DIR":"/Users/lbilde/.nvm","npm_package_dependencies__firebase_testing":"^0.19.5","npm_config_globalconfig":"/usr/local/etc/npmrc","CONDA_EXE":"/Users/lbilde/anaconda3/bin/conda","npm_config_prefer_online":"","npm_config_logs_max":"10","npm_config_always_auth":"","npm_package_dependencies_tslint":"^5.12.1","SSH_AUTH_SOCK":"/private/tmp/com.apple.launchd.9IkawA6SUB/Listeners","npm_package_scripts_deploy_rules":"firebase deploy --only firestore","__CF_USER_TEXT_ENCODING":"0x1F5:0x0:0x0","npm_execpath":"/usr/local/lib/node_modules/npm/bin/npm-cli.js","npm_config_global_style":"","npm_config_cache_lock_retries":"10","npm_package_dependencies_prettier":"1.19.1","npm_config_update_notifier":"true","npm_config_cafile":"","npm_package_scripts_execute_tests_rules":"jest './tests' --coverage --watchAll","npm_package_dependencies_ts_lint":"^4.5.1","npm_config_heading":"npm","npm_config_audit_level":"low","_CE_CONDA":"","npm_config_searchlimit":"20","npm_config_read_only":"","npm_config_offline":"","npm_config_fetch_retry_mintimeout":"10000","npm_config_json":"","npm_config_access":"","npm_config_argv":"{\"remain\":[],\"cooked\":[\"run\",\"test:rules\"],\"original\":[\"run\",\"test:rules\"]}","PATH":"/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/lbilde/Documents/work/angular-fire/hairdresser-rules/node_modules/.bin:/Users/lbilde/anaconda3/bin:/Users/lbilde/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/lib/dnx/runtimes/dnx-coreclr-darwin-x64.1.0.0-rc1-update1/bin:/Users/lbilde/.dnx/bin:/Users/lbilde/Documents/MongoDB/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/gradle/gradle-4.10.2/bin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/lbilde/Documents/work/angular-fire/hairdresser-rules/node_modules/.bin:/usr/local/mongodb/bin:/Users/lbilde/Library/Android/sdk/platform-tools::","npm_config_allow_same_version":"","TERMINAL_EMULATOR":"JetBrains-JediTerm","npm_config_https_proxy":"","npm_config_engine_strict":"","npm_config_description":"true","_":"/usr/local/bin/firebase","npm_config_userconfig":"/Users/lbilde/.npmrc","npm_config_init_module":"/Users/lbilde/.npm-init.js","npm_package_dependencies_typescript":"^3.9.3","NVM_NODEJS_ORG_MIRROR":"http://nodejs.org/dist","CONDA_PREFIX":"/Users/lbilde/anaconda3","npm_config_cidr":"","PWD":"/Users/lbilde/Documents/work/angular-fire/hairdresser-rules","npm_config_user":"","npm_config_node_version":"12.12.0","npm_lifecycle_event":"test:rules","npm_package_dependencies_jest":"^25.0.1","npm_config_save":"true","npm_config_ignore_prepublish":"","npm_config_editor":"vi","npm_config_auth_type":"legacy","npm_package_name":"cloud-firestore-emulator-typescript-quickstart","npm_config_tag":"latest","npm_config_script_shell":"","npm_config_progress":"true","npm_config_global":"","npm_config_before":"","npm_config_searchstaleness":"900","npm_config_optional":"true","npm_config_ham_it_up":"","npm_package_dependencies_ts_jest":"^26.0.0","XPC_FLAGS":"0x0","npm_config_save_prod":"","npm_config_force":"","npm_config_bin_links":"true","npm_config_searchopts":"","npm_config_node_gyp":"/usr/local/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js","npm_config_depth":"Infinity","npm_config_sso_poll_frequency":"500","npm_config_rebuild_bundle":"true","npm_package_version":"1.0.2","XPC_SERVICE_NAME":"0","_CE_M":"","npm_config_unicode":"true","HOME":"/Users/lbilde","SHLVL":"2","npm_config_fetch_retry_maxtimeout":"60000","npm_config_tag_version_prefix":"v","npm_config_strict_ssl":"true","npm_config_sso_type":"oauth","npm_config_scripts_prepend_node_path":"warn-only","npm_config_save_prefix":"^","npm_config_loglevel":"notice","npm_config_ca":"","npm_config_save_exact":"","npm_config_group":"20","npm_config_fetch_retry_factor":"10","npm_config_dev":"","npm_config_version":"","npm_config_prefer_offline":"","npm_config_cache_lock_stale":"60000","npm_config_otp":"","npm_config_cache_min":"10","npm_config_searchexclude":"","npm_config_cache":"/Users/lbilde/.npm","LOGNAME":"lbilde","CONDA_PYTHON_EXE":"/Users/lbilde/anaconda3/bin/python","npm_lifecycle_script":"firebase emulators:exec --only firestore 'npm run execute-tests:rules'","npm_config_color":"true","npm_config_proxy":"","npm_config_package_lock":"true","LC_CTYPE":"en_DK.UTF-8","npm_config_package_lock_only":"","npm_config_fund":"true","npm_config_save_optional":"","npm_package_dependencies_jest_environment_uint8array":"^1.0.0","CONDA_DEFAULT_ENV":"base","npm_config_ignore_scripts":"","npm_config_user_agent":"npm/6.14.4 node/v12.12.0 darwin x64","npm_config_cache_lock_wait":"10000","npm_config_production":"","DISPLAY":"/private/tmp/com.apple.launchd.7BNYcCxQbB/org.macosforge.xquartz:0","MONGO_PATH":"/usr/local/mongodb","npm_config_send_metrics":"","npm_config_save_bundle":"","npm_config_umask":"0022","npm_config_node_options":"","npm_config_init_version":"1.0.0","npm_config_init_author_name":"","npm_config_git":"git","npm_config_scope":"","npm_package_dependencies_source_map_support":"0.5.16","npm_config_unsafe_perm":"true","npm_config_tmp":"/var/folders/yc/dkh53q4560j_ylkkrcgq4vg40000gn/T","npm_config_onload_script":"","npm_package_dependencies_firebase_admin":"^8.5.0","npm_node_execpath":"/usr/local/bin/node","npm_config_prefix":"/usr/local","npm_config_link":"","npm_config_format_package_lock":"true","IS_FIREBASE_CLI":"true","FIRESTORE_EMULATOR_HOST":"localhost:8080","FIREBASE_FIRESTORE_EMULATOR_ADDRESS":"localhost:8080"}
+[debug] [2020-05-26T07:36:51.642Z] May 26, 2020 9:36:51 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-26T07:36:52.529Z] May 26, 2020 9:36:52 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-26T07:36:52.726Z] May 26, 2020 9:36:52 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-26T07:36:52.923Z] May 26, 2020 9:36:52 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-26T07:36:52.931Z] May 26, 2020 9:36:52 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:36:53.035Z] May 26, 2020 9:36:53 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:36:53.042Z] May 26, 2020 9:36:53 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:36:53.140Z] May 26, 2020 9:36:53 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:36:53.147Z] May 26, 2020 9:36:53 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:39:45.480Z] May 26, 2020 9:39:45 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-26T07:39:45.646Z] May 26, 2020 9:39:45 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-26T07:39:45.816Z] May 26, 2020 9:39:45 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-26T07:39:45.997Z] May 26, 2020 9:39:45 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-26T07:39:46.004Z] May 26, 2020 9:39:46 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:39:46.105Z] May 26, 2020 9:39:46 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:39:46.113Z] May 26, 2020 9:39:46 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:39:46.203Z] May 26, 2020 9:39:46 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:39:46.210Z] May 26, 2020 9:39:46 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:40:12.852Z] May 26, 2020 9:40:12 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-26T07:40:12.981Z] May 26, 2020 9:40:12 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-26T07:40:13.138Z] May 26, 2020 9:40:13 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-26T07:40:13.309Z] May 26, 2020 9:40:13 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-26T07:40:13.315Z] May 26, 2020 9:40:13 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:40:13.418Z] May 26, 2020 9:40:13 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:40:13.424Z] May 26, 2020 9:40:13 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:40:13.520Z] May 26, 2020 9:40:13 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:40:13.527Z] May 26, 2020 9:40:13 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
