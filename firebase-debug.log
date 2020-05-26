@@ -943,3 +943,73 @@ false for 'update' @ L32
 INFO: operation failed: 
 false for 'update' @ L32
 
+[debug] [2020-05-26T07:48:05.622Z] May 26, 2020 9:48:05 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-26T07:48:05.737Z] May 26, 2020 9:48:05 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-26T07:48:05.906Z] May 26, 2020 9:48:05 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-26T07:48:06.087Z] May 26, 2020 9:48:06 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-26T07:48:06.093Z] May 26, 2020 9:48:06 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:48:06.195Z] May 26, 2020 9:48:06 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:48:06.202Z] May 26, 2020 9:48:06 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:48:06.295Z] May 26, 2020 9:48:06 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:48:06.300Z] May 26, 2020 9:48:06 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:48:09.337Z] May 26, 2020 9:48:09 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-26T07:48:09.453Z] May 26, 2020 9:48:09 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L32
+
+[debug] [2020-05-26T07:48:09.613Z] May 26, 2020 9:48:09 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L32
+
+[debug] [2020-05-26T07:48:09.787Z] May 26, 2020 9:48:09 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Property name is undefined on object. for 'update' @ L32
+
+[debug] [2020-05-26T07:48:09.793Z] May 26, 2020 9:48:09 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:48:09.881Z] May 26, 2020 9:48:09 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:48:09.887Z] May 26, 2020 9:48:09 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:48:09.968Z] May 26, 2020 9:48:09 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
+[debug] [2020-05-26T07:48:09.973Z] May 26, 2020 9:48:09 AM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L32
+
